@@ -9,7 +9,7 @@ Environment.prototype.__initRequired = true;
 
 Environment.prototype.__init = function(units) {
   const settings = units.require('core.settings');
-  this.env = nunjucks.configure(settings.nunjucks.path, Object.assing({
+  this.env = nunjucks.configure(settings.nunjucks.path, Object.assign({
     watch: settings.core.debug
   }, settings.nunjucks));
 };
