@@ -1,0 +1,31 @@
+{
+  "name": "mm-nunjucks",
+  "version": "1.0.0",
+  "description": "Nunjucks templates extension for Matter In Motion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matter-in-motion/mm-nunjucks.git"
+  },
+  "keywords": [
+    "matter",
+    "in",
+    "motion",
+    "mm",
+    "templates",
+    "nunjucks",
+    "extension"
+  ],
+  "author": "Alexey Novikov <v@2dubs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matter-in-motion/mm-nunjucks/issues"
+  },
+  "homepage": "https://github.com/matter-in-motion/mm-nunjucks#readme",
+  "dependencies": {
+    "nunjucks": "^3.0.1"
+  }
+}
