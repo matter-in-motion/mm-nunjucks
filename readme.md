@@ -1,5 +1,8 @@
 # Matter In Motion. Nunjucks templates
 
+[![NPM Version](https://img.shields.io/npm/v/mm-nunjucks.svg?style=flat-square)](https://www.npmjs.com/package/mm-nunjucks)
+[![NPM Downloads](https://img.shields.io/npm/dt/mm-nunjucks.svg?style=flat-square)](https://www.npmjs.com/package/mm-nunjucks)
+
 [Nunjucks templates](https://mozilla.github.io/nunjucks) extension for [matter in motion](https://github.com/matter-in-motion/mm) framework
 
 ## Usage
