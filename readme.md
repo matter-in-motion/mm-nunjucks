@@ -7,7 +7,7 @@
 
 ## Usage
 
-[Extensions installation intructions](https://github.com/matter-in-motion/mm/blob/master/docs/extensions.md)
+[Extensions installation instructions](https://github.com/matter-in-motion/mm/blob/master/docs/extensions.md)
 
 Adds nunjucks templates [Environment](https://mozilla.github.io/nunjucks/api.html#environment) as `templates.nunjucks` unit.
 
