@@ -1,5 +1,5 @@
 .DS_Store
-node_modules
+.git*
 coverage
 .nyc_output
 *.log

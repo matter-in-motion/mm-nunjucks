@@ -4,7 +4,7 @@
   "description": "Nunjucks templates extension for Matter In Motion",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc ava"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,10 @@
   "homepage": "https://github.com/matter-in-motion/mm-nunjucks#readme",
   "dependencies": {
     "nunjucks": "^3.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "nyc": "^11.6.0",
+    "mm-test": "^1.0.0"
   }
 }

@@ -9,9 +9,14 @@ Environment.prototype.__initRequired = true;
 
 Environment.prototype.__init = function(units) {
   const settings = units.require('core.settings');
-  this.env = nunjucks.configure(settings.nunjucks.path, Object.assign({
+  const s = settings.nunjucks || {};
+  this.env = nunjucks.configure(s.path, Object.assign({
     watch: settings.core.debug
-  }, settings.nunjucks));
+  }, s));
+
+  for (const name in s.global) {
+    this.env.addGlobal(name, s.global[name]);
+  }
 };
 
 Environment.prototype.__instance = function() {
