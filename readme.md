@@ -13,7 +13,11 @@ Adds nunjucks templates [Environment](https://mozilla.github.io/nunjucks/api.htm
 
 ## Settings
 
-Add `nunjucks` section to your settings with path to templates. [The rest available options](https://mozilla.github.io/nunjucks/api.html#configure)
+Add `nunjucks` section to your settings with path to templates.
+
+* **path** — string, path to where your templates live
+* global — object, global variables to add to an environment context
+* [The rest available options](https://mozilla.github.io/nunjucks/api.html#configure)
 
 If your `core.debug` options is true it will reload templates when they are changed.
 
