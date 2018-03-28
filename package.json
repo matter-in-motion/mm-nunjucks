@@ -1,6 +1,6 @@
 {
   "name": "mm-nunjucks",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Nunjucks templates extension for Matter In Motion",
   "main": "index.js",
   "scripts": {
